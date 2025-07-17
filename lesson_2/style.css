@@ -30,3 +30,37 @@ nav a{
 a{
     text-decoration: none;  
 }
+
+.opening{
+    margin: 70px;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin: 0;
+}
+
+.product{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-weight: bolder;
+
+}
+
+.furniture{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
