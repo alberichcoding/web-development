@@ -1,5 +1,5 @@
 .main_header{
-    background-image: linear-gradient(rgb(6, 23, 175), rgb(0, 0, 0));
+    background-image:  linear-gradient(blanchedalmond, rgb(237, 175, 121), white);
     position: fixed;
     top: 0;
     right: 0;
@@ -19,16 +19,17 @@
 }
 
 .header_info a{
-    color: yellow;
+    color: rgb(229, 229, 147);
 }
 
 nav a{
-    color:ghostwhite;
+    color: rgb(229, 229, 147);
     margin: 10px;
 }
 
 a{
     text-decoration: none;  
+
 }
 
 .opening{
@@ -46,7 +47,8 @@ img{
     font-size: 20px;
     display: flex;
     flex-direction: row;
-
+    margin-bottom: 50px;
+    background-image:  linear-gradient(blanchedalmond, rgb(237, 175, 121));
 }
 
 .products{
@@ -56,11 +58,23 @@ img{
 
 .title{
     font-weight: bolder;
-
+    font-size: xx-large;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .furniture{
     font-size: larger;
     font-weight: bolder;
     text-align: center;
+}
+
+.product img{
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+}
+
+.product p{
+    margin-top: 30px;
 }
