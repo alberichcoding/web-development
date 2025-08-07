@@ -1,40 +1,54 @@
-.main_header{
-    background-image:  linear-gradient(blanchedalmond, rgb(237, 175, 121), white);
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 48px;
+body{
+    background-image: linear-gradient(white, rgb(254, 255, 191), rgb(251, 255, 0));
+    font-size: medium;
+    font-family: 'comic sans ms';
+    color: #000000;
+}
+.main_header{   
+    background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(234, 198, 165));
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 16px;
-    z-index: 1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
-.header_info{
+
+.main_header a{
     text-decoration: none;
-    color:aquamarine;
-    margin: 10px;
-    
 }
 
 .header_info a{
-    color: rgb(229, 229, 147);
+    text-decoration: none;
+    margin: 10px;
+    padding: 0 25px;
+    color: #000000;
 }
 
 nav a{
-    color: rgb(229, 229, 147);
+    margin-bottom: 50px;
     margin: 10px;
-}
-
-a{
-    text-decoration: none;  
-
+    color: #000000;
 }
 
 .opening{
     margin: 70px;
     text-align: center;
+    flex-direction: row;
+    font-size: larger;
+}
+
+.opening_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.description{
+    margin-left: 20px;
+    text-align: left;
 }
 
 img{
@@ -42,13 +56,11 @@ img{
     width: 200px;
     margin: 0;
 }
-
 .product{
     font-size: 20px;
     display: flex;
     flex-direction: row;
-    margin-bottom: 50px;
-    background-image:  linear-gradient(blanchedalmond, rgb(237, 175, 121));
+    background-image: linear-gradient(blanchedalmond, rgb(237, 175, 121));
 }
 
 .products{
