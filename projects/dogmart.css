@@ -1,0 +1,215 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: medium;
+    font-family: 'comic sans ms';
+    color: rgb(0, 0, 0)
+}
+.main_header{   
+    background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(234, 198, 165));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.main_header a{
+    text-decoration: none;
+}
+
+
+.header_info{
+    align-items: center;
+}
+.header_info a{
+    margin-bottom: 50px;
+    text-decoration: none;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+}
+
+
+.header_logo{
+    height: 25px;
+    width: 25px;
+    margin-left: 25px;
+
+}
+
+nav a{
+    margin-bottom: 50px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.opening{
+    margin: 70px;
+    text-align: center;
+    flex-direction: row;
+    font-size: larger;
+}
+
+.opening_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.description{
+    margin-left: 20px;
+    text-align: left;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin: 0;
+}
+.product{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(237, 175, 121));
+    align-items: center;
+    width: 100%;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.furniture{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.subscriptions{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.product img{
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+}
+
+.product p{
+    margin-top: 30px;
+    width: 400px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-bronze{
+    background-image: linear-gradient(rgb(148, 53, 2), rgb(222, 142, 2));
+    width: 300px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.tab-silver{
+    background-image: linear-gradient(silver,rgba(251, 242, 242, 0.843));
+    width: 300px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.tab-platinum{
+    background-image: linear-gradient(rgb(42, 109, 203), rgb(152, 255, 152));
+    width: 300px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.tab-gold{
+    background-image: linear-gradient(rgb(255, 162, 0),rgb(255, 234, 1));
+    width: 300px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.tab-diamond{
+    background-image: linear-gradient(rgb(0, 51, 255), rgb(163, 216, 254));
+    width: 300px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+h1.name{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: black
+}
+
+h2.price{
+    font-size: 38px;
+    color: black;
+}
+
+.list{
+    list-style-type: disc;
+    margin-bottom: 50px;
+    text-align: left;
+    height: 500px;
+}
+
+.list li{
+    margin-top: 20px;
+    color: black;
+}
+
+hr{
+    height: 7px;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+button{
+    background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(237, 175, 121));
+    border-color: whitesmoke;
+    border-radius: 8px;
+    color: black; 
+    padding: 10px;
+    margin-left: 97px;
+    margin-right: 97px;
+}
+
+button:hover{
+    transform: scale(1.198, 1.198);
+    background-image: linear-gradient(rgba(237, 175, 121, 0.678), rgba(255, 235, 205, 0.678), rgba(237, 175, 121, 0.678));
+    color: rgba(0, 0, 0, 0.678);
+    cursor: pointer;
+}
+
+.button-product{
+    margin-left: 1500px;
+}
