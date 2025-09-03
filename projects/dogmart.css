@@ -95,6 +95,13 @@ img{
     text-align: center;
 }
 
+.payment{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
 .subscriptions{
     font-size: xx-large;
     font-weight: bolder;
@@ -193,7 +200,7 @@ hr{
     margin-top: 20px;
 }
 
-button{
+.button-subscription{
     background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(237, 175, 121));
     border-color: whitesmoke;
     border-radius: 8px;
@@ -203,13 +210,14 @@ button{
     margin-right: 97px;
 }
 
+.button-payment{
+    background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(237, 175, 121));
+    
+}
+
 button:hover{
     transform: scale(1.198, 1.198);
     background-image: linear-gradient(rgba(237, 175, 121, 0.678), rgba(255, 235, 205, 0.678), rgba(237, 175, 121, 0.678));
     color: rgba(0, 0, 0, 0.678);
     cursor: pointer;
-}
-
-.button-product{
-    margin-left: 1500px;
 }
