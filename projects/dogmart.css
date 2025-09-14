@@ -19,10 +19,12 @@ body{
     text-decoration: none;
 }
 
-
 .header_info{
     align-items: center;
+    display: flex;
+    gap: 20px;
 }
+
 .header_info a{
     margin-bottom: 50px;
     text-decoration: none;
@@ -212,7 +214,15 @@ hr{
 
 .button-payment{
     background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(237, 175, 121));
-    
+    margin-left: 68.559055118110237px;
+    margin-right: 68.559055118110237px;
+    font-size: x-large;
+    transition: 0.36075675064212675334987564356789654324567890765435678967574321245678654736245463s ease;
+    border-radius: 8px;
+}
+
+.payments{
+    text-align: center;
 }
 
 button:hover{
