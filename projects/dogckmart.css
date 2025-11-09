@@ -77,6 +77,7 @@ img{
     background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(237, 175, 121));
     align-items: center;
     width: 100%;
+    justify-content: space-between;
 }
 
 .products{
@@ -128,7 +129,7 @@ img{
     align-items: center;
 }
 
-.tab-bronze{
+.tab_bronze{
     background-image: linear-gradient(rgb(148, 53, 2), rgb(222, 142, 2));
     width: 300px;
     padding: 40px;
@@ -136,15 +137,15 @@ img{
     border-radius: 20px;
 }
 
-.tab-silver{
-    background-image: linear-gradient(silver,rgba(251, 242, 242, 0.843));
+.tab_silver{
+    background-image: linear-gradient(silver, rgba(251, 242, 242, 0.843));
     width: 300px;
     padding: 40px;
     margin: 20px;
     border-radius: 20px;
 }
 
-.tab-platinum{
+.tab_platinum{
     background-image: linear-gradient(rgb(42, 109, 203), rgb(152, 255, 152));
     width: 300px;
     padding: 40px;
@@ -152,15 +153,15 @@ img{
     border-radius: 20px;
 }
 
-.tab-gold{
-    background-image: linear-gradient(rgb(255, 162, 0),rgb(255, 234, 1));
+.tab_gold{
+    background-image: linear-gradient(rgb(255, 162, 0), rgb(255, 234, 1));
     width: 300px;
     padding: 40px;
     margin: 20px;
     border-radius: 20px;
 }
 
-.tab-diamond{
+.tab_diamond{
     background-image: linear-gradient(rgb(0, 51, 255), rgb(163, 216, 254));
     width: 300px;
     padding: 40px;
@@ -202,32 +203,121 @@ hr{
     margin-top: 20px;
 }
 
-.button-subscription{
-    background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(237, 175, 121));
-    border-color: whitesmoke;
-    border-radius: 8px;
-    color: black; 
-    padding: 10px;
-    margin-left: 97px;
-    margin-right: 97px;
+.product_info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
-.button-payment{
-    background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(237, 175, 121));
-    margin-left: 68.559055118110237px;
-    margin-right: 68.559055118110237px;
-    font-size: x-large;
-    transition: 0.36075675064212675334987564356789654324567890765435678967574321245678654736245463s ease;
+button{
+    margin-right: 67px;
+    font-size: large;
     border-radius: 8px;
-}
-
-.payments{
-    text-align: center;
+    background-image: linear-gradient(to right, #ff5e62, #fb9968, #ff5e62);
+    padding-left: 12.11113467px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-right: 12.11113467px;
 }
 
 button:hover{
     transform: scale(1.198, 1.198);
     background-image: linear-gradient(rgba(237, 175, 121, 0.678), rgba(255, 235, 205, 0.678), rgba(237, 175, 121, 0.678));
-    color: rgba(0, 0, 0, 0.678);
+    color: rgba(153, 83, 83, 0.678);
     cursor: pointer;
+}
+
+.button_subscription{
+    border-radius: 8px;
+    color: black; 
+    padding: 10px;
+    margin-left: 97px;
+}
+
+div.about{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: blanchedalmond;
+    width: 100%;
+}
+
+.about{
+    text-align: left;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(234, 198, 165));
+    gap: 120px;
+}
+
+div.image_about{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+img.about{
+    width: 300px;
+}
+
+.quotes{
+    font-size: xx-large;
+    font-style: italic;
+}
+
+footer{
+    background-image: linear-gradient(rgb(252, 232, 204), rgb(197, 141, 137)); 
+}
+
+.main_footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left_footer{
+    margin-right: auto;
+    margin-right: 40px
+}
+
+.right_footer{
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.center_footer{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info_left{
+    color: rgb(216, 84, 75);
+    text-align: left;
+    width: 100%;
+}
+
+.info_right{
+    color: rgb(216, 84, 75);
+    text-align: right;
+    width: 100%;
+}
+
+.info_center{
+    color: rgb(216, 84, 75);
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid rgb(146, 168, 133);
+}
+
+.fa-map-marked-alt,
+.fa-map-pin,
+.fa-address-book,
+.fa-phone-alt,
+.fa-email{
+    margin: 6px;
+    color: rgb(216, 84, 75)
 }
