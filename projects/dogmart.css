@@ -1,8 +1,9 @@
 body{
     background-color: rgb(255, 255, 255);
     font-size: medium;
-    font-family: 'comic sans ms';
-    color: rgb(0, 0, 0)
+    font-family: 'bradley hand';
+    color: rgb(0, 0, 0);
+    justify-content: center;
 }
 .main_header{   
     background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(234, 198, 165));
@@ -102,7 +103,63 @@ img{
     font-size: xx-large;
     font-weight: bolder;
     text-align: center;
+}
 
+.menu{
+    margin-top: 67.67676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767px;
+    font-size: 100.67px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.appetizer_quantity{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.appetizers{
+    font-size: 50.335px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.foodtype_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(237, 175, 121)        );
+
+}
+
+.button_menu{
+    margin: 7.6767px;
+    align-items: center;
+}
+
+.soups_and_noodles{
+    font-size: 50.335px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.foodtype_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(237, 175, 121)        );
+}
+
+.soups_and_noodles_quantity{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .subscriptions{
@@ -209,7 +266,7 @@ hr{
     flex: 1;
 }
 
-button{
+.button_products{
     margin-right: 67px;
     font-size: large;
     border-radius: 8px;
@@ -220,9 +277,9 @@ button{
     padding-right: 12.11113467px;
 }
 
-button:hover{
+.button_subscription:hover{
     transform: scale(1.198, 1.198);
-    background-image: linear-gradient(rgba(237, 175, 121, 0.678), rgba(255, 235, 205, 0.678), rgba(237, 175, 121, 0.678));
+    background-image: linear-gradient(to right, #ff5e61, #fb9968, #ff5e62);
     color: rgba(153, 83, 83, 0.678);
     cursor: pointer;
 }
@@ -232,6 +289,7 @@ button:hover{
     color: black; 
     padding: 10px;
     margin-left: 97px;
+    background-image: linear-gradient(to right, #ff5e62, #fb9968, #ff5e62);
 }
 
 div.about{
