@@ -146,6 +146,12 @@ img{
     text-align: center;
 }
 
+.main_dishes_and_heavy_foods{
+    font-size: 50.335px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .foodtype_2{
     display: flex;
     flex-direction: row;
@@ -156,7 +162,23 @@ img{
     background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(237, 175, 121)        );
 }
 
+.foodtype_3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    background-image: linear-gradient(rgb(237, 175, 121), blanchedalmond, rgb(237, 175, 121)        );
+}
+
 .soups_and_noodles_quantity{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_dishes_and_heavy_foods_quantity{
     margin-top: 0px;
     display: flex;
     flex-direction: column;
